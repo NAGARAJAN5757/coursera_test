@@ -1,0 +1,64 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+.bg{
+	background-color: crimson;
+}
+.navbar-toggler{
+	color: white;
+}
+.navbar{
+	padding:0px;
+}
+@media(max-width:767px){
+	.ul-bg{
+		background-color: coral;
+		text-align: center;
+	}
+}
+@media(min-width:768px){
+	hr{
+		display: none;
+	}
+	.navbar-nav{
+		display: none;
+	}
+}
+
+@media(min-width: 576px){
+	.navbar-toggler{
+		display: none;
+	}
+}
+nav .nav-item a:hover{
+	color: yellow !important
+}
+hr{
+	margin: 0px;
+	color: black;
+}
+.ag{
+	background-color: gray;
+}
+.ak{
+	margin-bottom: 10px;
+}
+h3,h1{
+	margin:5px;
+	padding: 10px;
+	text-align: center;
+}
+.navbar .navbar-toggler[aria-expanded="true"] {
+color: black!important;
+}
+.navbar .navbar-toggler:focus{
+color: white;
+}
+.row{
+	width: 90%;
+	margin-left: 5%;
+}
+	
+
